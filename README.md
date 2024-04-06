@@ -18,3 +18,5 @@ This paper will focus on how much running backs contribute by statistically anal
 All data is gathered from [Pro Football Reference during the 2022 season.](https://www.pro-football-reference.com/years/2022/) I used rushing and passing stats (e.g. yards obtained, yards per carry, touchdowns, passer rating) and compared them to a team's win/loss percentage and their offensive rankings. My choice of language was R, and you can see my code used to generate graphs/numbers in my Rmd or HTML file.
 
 I wrote my analysis on the PDF file, so if you don't want to see how the proverbial sausage is made, ignore every other file and jump into the file ***rushingPaper.pdf***.
+
+If you want to see previous drafts, you can go to the branch that corresponds to the draft number.
