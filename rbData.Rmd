@@ -248,4 +248,29 @@ sd(passOff$TD)
 sd(passOff$Rate)
 ```
 
+## Passing Offense vs Rushing Y/A
+```{r}
+plot(rushOff$Y.A, passOff$Rate, type = "n", xlab = "Rushing Y/A", ylab = "Passer Rating")
+text(rushOff$Y.A, passOff$Rate, labels = rushOff$Abv.)
+cor(rushOff$Y.A, passOff$Rate)
+
+plot(rushOff$Yds, passOff$Rate, type = "n", xlab = "Rushing Yards", ylab = "Passer Rating")
+text(rushOff$Yds, passOff$Rate, labels = rushOff$Abv.)
+cor(rushOff$Yds, passOff$Rate)
+
+plot(rushOff$Y.A, passOff$Yds, type = "n", xlab = "Rushing Y/A", ylab = "Passing Yards")
+text(rushOff$Y.A, passOff$Yds, labels = rushOff$Abv.)
+cor(rushOff$Y.A, passOff$Yds)
+
+plot(rushOff$Yds, passOff$Yds, type = "n", xlab = "Rushing Yards", ylab = "Passing Yards")
+text(rushOff$Yds, passOff$Yds, labels = rushOff$Abv.)
+cor(rushOff$Yds, passOff$Yds)
+
+plot(passOff$Yds, rushOff$TD, type = "n", xlab = "Passing Yards", ylab = "Rushing TDs")
+text(passOff$Yds, rushOff$TD, labels = rushOff$Abv.)
+cor(passOff$Yds, rushOff$TD)
+
+
+```
+
 
